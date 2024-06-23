@@ -44,51 +44,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56d9559a79e304f44b5ac4d726f1ee68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeChain: arbitrum-sepolia
+  activeChain: base-sepolia
   supportedChains:
-  - identifier: ethereum
-    chainId: 1
+  - identifier: base-sepolia
+    chainId: 84532
     rpcOverride: 
-  - identifier: sepolia
-    chainId: 11155111
-    rpcOverride: 
-  - identifier: polygon
-    chainId: 137
-    rpcOverride: 
-  - identifier: polygon-amoy-testnet
-    chainId: 80002
-    rpcOverride: 
-  - identifier: fantom
-    chainId: 250
-    rpcOverride: 
-  - identifier: fantom-testnet
-    chainId: 4002
-    rpcOverride: 
-  - identifier: avalanche
-    chainId: 43114
-    rpcOverride: 
-  - identifier: avalanche-fuji
-    chainId: 43113
-    rpcOverride: 
-  - identifier: arbitrum
-    chainId: 42161
-    rpcOverride: 
-  - identifier: arbitrum-sepolia
-    chainId: 421614
-    rpcOverride: 
-  - identifier: binance
-    chainId: 56
-    rpcOverride: 
-  - identifier: binance-testnet
-    chainId: 97
-    rpcOverride: 
-  - identifier: xai
-    chainId: 660279
-    rpcOverride: 
-  - identifier: xai-sepolia
-    chainId: 37714555429
-    rpcOverride: 
-  clientId: 
+  clientId: 84532
   initializeOnAwake: 1
   showDebugLogs: 1
   bundleIdOverride: 
