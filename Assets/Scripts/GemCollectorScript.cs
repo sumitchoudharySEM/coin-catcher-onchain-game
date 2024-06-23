@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GemCollectorScript : MonoBehaviour
 {
+    public GameObject claimPrompt;
     public int gemCount = 0;
     [SerializeField] private TMPro.TextMeshProUGUI gemCountText;
 
@@ -14,6 +15,14 @@ public class GemCollectorScript : MonoBehaviour
             Destroy(collision.gameObject);
             gemCount++;
             gemCountText.text = gemCount.ToString();
+        }
+    }
+
+    void Update()
+    {
+        if (gemCount == 8)
+        {
+            claimPrompt.SetActive(true);
         }
     }
 }

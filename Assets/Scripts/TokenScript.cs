@@ -16,7 +16,7 @@ public class TokenScript : MonoBehaviour
 
     void Start()
     {
-        HasNotClamed.SetActive(false);
+        HasNotClamed.SetActive(true);
         Clamining.SetActive(false);
         Clamed.SetActive(false);
     }
